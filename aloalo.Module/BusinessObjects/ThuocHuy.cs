@@ -67,6 +67,14 @@ namespace aloalo.Module.BusinessObjects
         }
 
 
+        private string _unknown;
+        public string unknown
+        {
+            get { return _unknown; }
+            set { SetPropertyValue<string>(nameof(unknown), ref _unknown, value); }
+        }
+
+
 
 
 
